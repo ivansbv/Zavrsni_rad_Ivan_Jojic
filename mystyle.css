@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#B0C4DE;
+	margin:0;
+	padding:0;
+	background-attachment:fixed;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+a{
+	text-decoration:none;
+	}
+#wrapper{
+	background:#ffffff;
+	width:1200px;
+	height:auto;
+	margin:auto;
+	padding:0;
+	}
+
+#nav{
+	background:#00b3b3;
+	width:auto;
+	height:50px;
+	margin:0;
+	}
+#nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+#nav ul li{
+	float:left;
+	position:relative;
+	}
+#nav ul li a{
+	height:20px;
+	padding:15px;
+	display:block;
+	}
+	
+#nav ul li a:link{ 
+	color:#ffffff; 
+	}
+#nav ul li a:visited{
+	color:#ffffff;
+	}
+#nav ul li a:hover{
+	color:#ff0000;
+	background:#CCC;
+	}
+#nav ul li a:active{
+	color:#0CF;
+	background:#004d4d;
+	}
+#header{
+	background:#ffffff;
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:0;
+	float: left;
+	clear:both;
+	}
+#header > div { 
+    position: absolute; 
+
+}
+img[alt="logo-nav"]{
+	float: left;
+	border-right: 1px solid white;
+}
+#pokusaj{
+	background:#ffffff;
+	width: 1200px;
+	height: 400px;
+}
+#main{
+	background:#ffffff;
+	width:900px;
+	height:auto;
+	margin:0;
+	padding:10px;
+	float:left;
+	clear:both;
+	}
+#main_ostalo{
+	width: auto;
+	height: 1000px;
+	text-align: center;
+}
+h1,h2,h3,h4{
+	color:#0b3041;
+	margin-top: 50px;
+	}
+p{
+	color:#333333;
+	}
+.ceo_paragraf{
+	border-bottom: 2px solid #B0C4DE;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+.slika_paragraf{
+	float: left;
+	padding-right: 20px;
+}
+.paragraf_text{
+	width: auto;
+	padding: 0px 20px ;
+}
+table{
+	margin: auto;
+	margin-top: 30px;
+	border: 1px solid black;
+}
+th{
+	text-align: center;
+	background-color: #00b3b3;
+	color: #ffffff;
+	padding: 10px;
+}
+td {
+    text-align: left;
+    padding: 5px;
+	color: #5c8a8a;
+}
+tr:hover {background-color: #f5f5f5}
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+#sidebar{
+	background-color:#DCDCDC; 
+	width:250px;
+	height:auto;
+	margin:0;
+	padding:15px;
+	float:left;
+	}
+#sidebar h3{
+	color:#0b3041;
+	margin: 20px 80px;
+}
+#sidebar img{
+	margin: 25px;
+}
+
+#footer{
+	background:#999999;
+	width:auto;
+	height:auto;
+	margin:0;
+	clear:both;
+	}
+#footer p{
+	color:#ffffff;
+	text-align:center;
+	padding:5px;
+	font-size:12px;
+	}
+fieldset{
+	float: left;
+	margin-top: 30px;
+}
+#podaci{
+	float:left;
+	}
+#poruka{
+	float:left;
+	margin-left:40px;
+	}
+#adresa{
+	float: right;
+	margin-right: 60px;
+}
+#location{
+	padding-top: 60px;
+	clear: both;
+}
+@media screen and (min-width:1024px) and (max-width:1260px) {
+	#wrapper {
+		width:900px;
+	}
+	#header img{
+		width: 900px;
+	}
+	#main{
+		width: 880px;
+	}
+	#main_ostalo{
+	width: 900px;
+	height: 700px;
+	}
+	#sidebar{
+		float: none;
+		width: auto;
+	}
+	#pokusaj{
+		width: 100%;
+		height: 250px;
+	}
+	#location iframe{
+		width: 100%;
+	}
+
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+	#wrapper{
+		width: 600px;
+	}
+	#nav{
+		width: 600px;
+		height: auto;
+	}
+	img[alt="logo-nav"]{
+	float: none;
+	margin-left: 200px;
+	border: none;
+	background:#00b3b3;
+	}
+	#nav ul{
+		width: auto;
+		border-top: 1px solid white;
+
+	}
+	#nav ul li{
+		background-color: #00b3b3;
+		width: 100px;
+	}
+	#nav ul li a{
+	height:20px;
+	padding:auto;
+	font-size: 90%;
+	}
+	#header img{
+		width: 600px;
+	}
+	#pokusaj{
+		width: 100%;
+		height: 220px;
+	}
+	#main{
+		width: 580px;
+		height: auto;
+		float: none;
+		clear: both;
+	}
+	#main_ostalo{
+	width: 600px;
+	height: 700px;
+	}
+	#sidebar{
+		float: none;
+		width: auto;
+	}
+	fieldset{
+	float: none;
+	margin-top: 30px;
+	}
+	#adresa{
+		padding-top: 10px;
+		float: none;
+		margin-left: 80px;
+	}
+	#location iframe{
+		width: 100%;
+		padding-top: 0;
+		margin-top: 0;
+	}
+}
+@media screen and (max-width:767px) {
+	#wrapper{
+		width: 90%;
+	}
+	#nav ul{
+		
+	}
+	img[alt="logo-nav"]{
+	float: none;
+	margin-left: 80px;
+	border: none;
+	background:#00b3b3;
+	}
+	#nav ul li{
+		background-color: #00b3b3;
+		border:1px solid white;
+		float: none;
+		
+	}
+	#nav ul li a{
+	height:20px;
+	padding:12px;
+	display:block;
+	text-align:center;
+	font-size: 90%;
+	}
+	#header img{
+		width: 0;
+	}
+	#pokusaj{
+		width: 100%;
+		height: 250px;
+	}
+	#main{
+		width: 90%;
+	}
+	.ceo_paragraf{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	font-size: 12px;
+	}
+	.slika_paragraf{
+	width: 70%;
+	float: left;
+	padding-right: 20px;
+	}
+	#sidebar{
+		width: 90%;
+	}
+	#sidebar img{
+		width: 40%;
+		margin:5px;
+	}
+	#podaci{
+		float: none;
+	}
+	#poruka{
+		float: none;
+		margin-left:0;
+	}
+	#poruka textarea{
+		width: 100%;
+	}
+	#location iframe{
+		width: 100%;
+		height: 100%;
+		padding-top: 0;
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,10 @@
+
+RewriteEngine 	On
+RewriteRule		POCETNA 		?strana=1			
+RewriteRule		O_NAMA 			?strana=2		
+RewriteRule		USLUGE 			?strana=3			
+RewriteRule		REFERENCE 		?strana=4			
+RewriteRule		CENOVNIK 		?strana=5			
+RewriteRule		KONTAKT 		?strana=6
+
+ErrorDocument 404	/ivi-sistem/view/404.php
